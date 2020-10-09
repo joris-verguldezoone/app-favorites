@@ -1,0 +1,154 @@
+/** balises générales **/
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+/** Header **/
+#header_container {
+    background: #171a21;
+    height: 100vh;
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo_dimension {
+    height: 25%;
+    width: 50%;
+}
+
+.position_header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+/*main*/
+main {
+    width: 92%;
+    background-color: #F2F2F2;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.article {
+    background-color: #624245;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    margin: 5%;
+    height: 350px;
+    width: 500px;
+}
+
+#section_bottom {
+    padding-top: 5%;
+
+}
+
+.img_dimension {
+    height: 200px;
+    width: 400px;
+
+}
+
+/*   font   */
+@font-face {
+    font-family: 'reseaux';
+    src: url('font/reseaux/Social_Shapes.ttf');
+}
+
+.reseaux {
+    font-family: 'reseaux';
+    font-size: 40px;
+    padding: 3%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.p_justify {
+    text-align: justify;
+    padding-bottom: 5%;
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+/*footer*/
+footer {
+    background: url('images/header_background.jpg');
+    width: 92%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer_article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+    height: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.footer_article_middle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 25%;
+    height: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+input {
+    width: 50%;
+    background: orange;
+    color: white;
+    padding: 1%;
+}
+
+.p_footer,
+label {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+
+}
